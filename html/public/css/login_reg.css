@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Mynerve', cursive;
+}
+body{
+    background: white;
+    color: #0407a3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+  }
+  
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+.closebtn:hover {
+    color: black;
+  }
+header{
+    width: 100%;
+}
+.logo{
+    height: 75px;
+    width: 75px;
+}
+.logo img{
+    height: auto;
+    width: 100%;
+}
+.flexme{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    flex-direction: row;
+}
+ul{
+    list-style: none;
+}
+nav{
+    font-size: 1.5rem;
+    padding: 15px;
+    width: 50%;
+}
+form{
+    margin:100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+label{
+    margin-right: 5px;
+}
+div{
+   gap: 10px;
+    margin: 20px;
+}
+button{
+    padding:5px 10px;
+}
+.create-edit{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.edel-btn {
+    display: flex;
+    gap: 20px;
+  }
+footer {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  footer a {
+    text-decoration: none;
+    margin: 25px;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+  .book-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    grid-gap: 20px; /* gap between grid items */
+  }
+  .book-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  .book-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .book-card h3 {
+    margin-top: 0;
+  }
+  
+  .book-card p {
+    margin-bottom: 5px;
+  }
+  
+  .book-card strong {
+    font-weight: bold;
+  }
+  
